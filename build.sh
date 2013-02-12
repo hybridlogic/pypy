@@ -1,5 +1,5 @@
 #!/bin/sh
-if [ "x$1" -eq "x" ]; then
+if [ "x$1" = "x" ]; then
     echo "Usage: build.sh <version-id>"
     exit
 fi
